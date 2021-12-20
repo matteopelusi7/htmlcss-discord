@@ -149,6 +149,10 @@ a {
     padding: 20px;
 }
 
+.big-item img {
+    width: 100%;
+}
+
 .container .row-4 {
     background-image: url('img/stars.svg');
     text-align: center;
@@ -169,4 +173,75 @@ a {
 
 .row-4 h3 {
     padding-bottom: 30px;
+}
+
+footer {
+    background-color: rgb(35,39,42);
+}
+
+.row .text-footer {
+    color: rgb(88,101,242);
+    padding-bottom: 20px;
+}
+
+.row .col {
+    padding: 40px;
+}
+
+.col .social {
+    padding-top: 20px;
+    color: white;
+}
+
+.social i {
+    padding: 5px;
+}
+
+.col select {
+    background: rgb(35,39,42);
+    color: white;
+    border: none;
+}
+
+.list-footer li {
+    list-style: none;
+    color: white;
+    padding: 10px;
+}
+
+.row .col {
+    width: 18.7%;
+}
+
+.row .col:first-child {
+    width: 25%;
+}
+
+.list-footer li:first-child {
+    color: rgb(88,101,242);
+}
+
+.col .sign{
+    background-color: rgb(88,101,242);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+.row-6 hr {
+    color: lightgrey;
+}
+
+.row-6 {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+}
+
+.col .logo-footer {
+    padding-top: 20px;
+    float: left;
 }
