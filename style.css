@@ -5,6 +5,10 @@
     font-family: Helvetica,Arial,sans-serif; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-image: url('img/jumbo.png');
     background-size: cover;
@@ -19,11 +23,6 @@ header {
 .container .row {
     width: 100%;
     min-height: 70px;
-}
-
-.col-1 img {
-    min-width: 50px;
-    width: 100%;
 }
 
 a {
@@ -57,10 +56,12 @@ a {
 
 .row .col-1 {
     padding: 25px;
+    width: 15%;
 }
 
 .row .col-3 {
     padding: 25px;
+    width: 15%;
 }
 
 .row-2 .col-4 {
@@ -91,10 +92,6 @@ a {
     padding: 12px 20px;
     border-radius: 30px;
     display: inline-block;
-}
-
-.col-4 .button-header {
-    width: 100%;
 }
 
 .row .col-6 {
@@ -194,7 +191,8 @@ footer {
 }
 
 .social i {
-    padding: 5px;
+    padding: 7px;
+    font-size: x-large;
 }
 
 .col select {
